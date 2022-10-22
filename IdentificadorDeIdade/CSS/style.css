@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* Configurações globais */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+/* Cabeçalho */
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-style: italic;
+    text-shadow: 1px 2px 10px red;
+}
+
+/* Conteudo principal */
+section {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 0px black;
+}
+
+/* div {
+
+} */
+
+/* div {
+    
+} */
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 2px 10px red;
+}
+
+footer a:hover {
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    border-radius: 8px;
+    padding: 7px;
+    transition: 0.5s;
+
+}
