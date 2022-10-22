@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* Configurações Globais */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 102, 255, 0.486);
+    
+}
+/* Cabeçalho */
+
+header {
+    text-align: center;
+    color: white;
+}
+
+/* Section */
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 255, 0.185);
+    position: relative;
+
+}
+
+#foto {
+    position: absolute;
+    left: 26%;
+    top: 20%;
+}
+
+#msg {
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/* Rodapé */
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
