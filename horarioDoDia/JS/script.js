@@ -1,5 +1,5 @@
 //Evento que vai chamar a função
-// window.addEventListener('load',carregar)
+window.addEventListener('load',carregar)
 
 // Função com a programação do site, vai ser chamada com o evento "LOAD"
 function carregar() { 
